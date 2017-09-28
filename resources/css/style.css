@@ -36,9 +36,10 @@ h4 {
   color: black;
 }
 
-.container {
+.main {
   width: 100%;
   display: flex;
+  justify-content: space-between;
   position: relative;
   top: 100px;
   border: 4px solid black;
@@ -53,6 +54,7 @@ h4 {
 .column.large {
   width: 630px;
   border: 4px solid green;
+  display: flex;
 }
 
 .column.medium {
@@ -67,4 +69,58 @@ h4 {
 
 .article {
   border: 2px solid black;
+  font-family: georgia;
+  font-size: 17px;
+}
+
+.phish {
+  display: flex;
+  text-align: center;
+  background-image: url("../images/img-story-main.png");
+  width: 629px;
+  height: 300px;
+}
+
+.earth {
+  display: inline-flex;
+  text-align: center;
+  background-image: url("../images/img-story-2.png");
+  width: 299px;
+  height: 300px;
+}
+
+.camera {
+  display: inline-flex;
+  text-align: center;
+  background-image: url("../images/img-story-3.png");
+  width: 299px;
+  height: 300px;
+}
+
+.cats {
+  display: flex;
+  text-align: center;
+  background-image: url("../images/img-story-1.png");
+  width: 299px;
+  height: 300px;
+}
+
+.image{
+  font-family: georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+ #phish {
+  font-size: 40px;
+}
+
+.inline {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.orca, .burger {
+  width: 295px;
 }
